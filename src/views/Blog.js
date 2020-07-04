@@ -25,30 +25,51 @@ import SectionCarousel from "./index-sections/SectionCarousel";
 import NavBar from "./sections/Navbar.js";
 
 function Blog() {
-  const [activeTab, setActiveTab] = React.useState("1");
-
-  const toggle = (tab) => {
-    if (activeTab !== tab) {
-      setActiveTab(tab);
-    }
-  };
-
-  document.documentElement.classList.remove("nav-open");
-  React.useEffect(() => {
-    document.body.classList.add("landing-page");
-    return function cleanup() {
-      document.body.classList.remove("landing-page");
-    };
-  });
+  
   return (
     <>
     <NavBar />
-      {/* <Jumbotron /> */}
-      {/* <ProfilePageHeader /> */}
       <Container>
-          <SectionCarousel />
+        <h1 className="text-center">
+          Latest Blog Posts
+        </h1>
+        <br />
+        <Row>
+          <Col sm="6" lg="4">
+          <img
+                alt="..."
+                className="img-rounded img-no-padding img-responsive"
+                src={require("assets/img/Photos/smoky_1.jpg")}
+                height='450px'
+                width='350px'
+              />
+             <h4 className="text-center">5 Days in Iceland</h4>
 
-        </Container>
+          </Col>
+          <Col sm="6" lg="4">
+          <img
+                alt="..."
+                className="img-rounded img-no-padding img-responsive"
+                src={require("assets/img/Photos/8.jpg")}
+                height='450px'
+                width='350px'
+              />
+                <h4 className="text-center">3 Days in Switzerland</h4>
+
+          </Col>          
+          <Col sm="6" lg="4">
+          <img
+                alt="..."
+                className="img-rounded img-no-padding img-responsive"
+                src={require("assets/img/Photos/paris.jpg")}
+                height='450px'
+                width='350px'
+              />
+                <h4 className="text-center">Weekend in Paris</h4>
+
+          </Col>
+        </Row>
+      </Container>
       <DemoFooter />
     </>
   );

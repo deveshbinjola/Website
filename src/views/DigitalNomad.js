@@ -7,7 +7,8 @@ function DigitalNomad() {
         <>
         <NavBar />
 
-          <DemoFooter />
+
+        <DemoFooter />
         </>
       );
     }
