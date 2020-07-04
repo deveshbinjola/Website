@@ -22,6 +22,7 @@ import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 import SectionCarousel from "./index-sections/SectionCarousel";
+import NavBar from "./sections/Navbar.js";
 
 function Blog() {
   const [activeTab, setActiveTab] = React.useState("1");
@@ -41,8 +42,8 @@ function Blog() {
   });
   return (
     <>
-      <ExamplesNavbar />
-      <Jumbotron />
+    <NavBar />
+      {/* <Jumbotron /> */}
       {/* <ProfilePageHeader /> */}
       <Container>
           <SectionCarousel />
