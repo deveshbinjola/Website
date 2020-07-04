@@ -12,6 +12,13 @@ import About from "views/About.js";
 import Blog from "views/Blog.js";
 import CreditAdvice from "views/CreditAdvice.js";
 import DigitalNomad from "views/DigitalNomad.js";
+import TravelBlog from "views/TravelBlog.js";
+import TravelTips from "views/TravelTips";
+import Hiking from "views/Hiking";
+import TravelSmarter from "views/blog/TravelSmarter";
+import Iceland from "views/blog/Iceland";
+import Switzerland from "views/blog/Switzerland";
+import Paris from "views/blog/Paris";
 // others
 
 ReactDOM.render(
@@ -33,6 +40,34 @@ ReactDOM.render(
       <Route
         path="/digitalnomad"
         render={(props) => <DigitalNomad {...props} />}
+      />
+      <Route
+        path="/travelblog"
+        render={(props) => <TravelBlog {...props} />}
+      />
+      <Route
+        path="/traveltips"
+        render={(props) => <TravelTips {...props} />}
+      />
+      <Route
+        path="/hiking"
+        render={(props) => <Hiking {...props} />}
+      />
+      <Route
+        path="/travelsmarter"
+        render={(props) => <TravelSmarter {...props} />}
+      />
+      <Route
+        path="/iceland"
+        render={(props) => <Iceland {...props} />}
+      />
+      <Route
+        path="/switzerland"
+        render={(props) => <Switzerland {...props} />}
+      />
+      <Route
+        path="/paris"
+        render={(props) => <Paris {...props} />}
       />
       <Redirect to="/index" />
     </Switch>

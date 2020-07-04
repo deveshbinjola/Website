@@ -2,29 +2,15 @@ import React from "react";
 
 // reactstrap components
 import {
-  Button,
-  Label,
-  FormGroup,
-  Input,
-  NavItem,
-  NavLink,
-  Nav,
-  TabContent,
-  TabPane,
   Container,
   Row,
-  Col,
-  Jumbotron,
+  Col
 } from "reactstrap";
 
-// core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
-import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
-import SectionCarousel from "./index-sections/SectionCarousel";
 import NavBar from "./sections/Navbar.js";
 
-function Blog() {
+function TravelBlog() {
   
   return (
     <>
@@ -78,4 +64,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default TravelBlog;

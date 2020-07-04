@@ -11,6 +11,7 @@ function LatestBlogPosts() {
         </h1>
           <Row>
             <Col sm="6" lg="4">
+            <a href="iceland">
             <img
                   alt="..."
                   className="img-rounded img-no-padding img-responsive"
@@ -19,8 +20,10 @@ function LatestBlogPosts() {
                   width='350px'
                 />
                 <h4 className="text-center">5 Days in Iceland</h4>
+            </a>
             </Col>
             <Col sm="6" lg="4">
+            <a href="switzerland">             
             <img
                   alt="..."
                   className="img-rounded img-no-padding img-responsive"
@@ -29,9 +32,10 @@ function LatestBlogPosts() {
                   width='350px'
                 />
                 <h4 className="text-center">3 Days in Switzerland</h4>
-
+            </a>
             </Col>          
             <Col sm="6" lg="4">
+              <a href="paris">
             <img
                   alt="..."
                   className="img-rounded img-no-padding img-responsive"
@@ -40,6 +44,7 @@ function LatestBlogPosts() {
                   width='350px'
                 />
                 <h4 className="text-center">Weekend in Paris</h4>
+              </a>
             </Col>
           </Row>
           </Container>
