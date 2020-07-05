@@ -2,8 +2,7 @@
 
 Within the download you'll find the following directories and files:
 ```
-paper-kit-react
-.
+thetravelstudent.
 ├── CHANGELOG.md
 ├── ISSUE_TEMPLATE.md
 ├── LICENSE.md
