@@ -40,6 +40,8 @@ function DemoFooter() {
             <span className="copyright">
               © {new Date().getFullYear()}, made with{" "}
               <i className="fa fa-heart heart" /> by Sunny Binjola
+              for better travel.
+
             </span>
           </div>
         </Row>

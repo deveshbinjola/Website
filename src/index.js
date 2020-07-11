@@ -19,10 +19,15 @@ import TravelSmarter from "views/blog/TravelSmarter";
 import Iceland from "views/blog/Iceland";
 import Switzerland from "views/blog/Switzerland";
 import Paris from "views/blog/Paris";
+import ReactGA from "react-ga";
 // others
+
+ReactGA.initialize('UA-82402078-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 ReactDOM.render(
   <BrowserRouter>
+  
     <Switch>
       <Route path="/index" render={(props) => <Index {...props} />} />
       <Route

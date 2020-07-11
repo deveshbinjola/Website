@@ -1,14 +1,15 @@
 import React from "react";
 import DemoFooter from "components/Footers/DemoFooter.js";
 import NavBar from "./sections/Navbar.js";
-import { Container } from "reactstrap";
+import { Container, Jumbotron } from "reactstrap";
 
 function CreditAdvice() {
     return (
         <>
         <NavBar />
+        <Jumbotron />
         <Container>
-            
+
         </Container>
         <DemoFooter />
         </>

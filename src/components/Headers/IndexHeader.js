@@ -28,7 +28,7 @@ function IndexHeader() {
               </div>
             </div>
             <h2 className="presentation-subtitle text-center">
-              Your goto place for everything related to travel!
+            Education begins when you travel!
             </h2>
           </Container>
         </div>

@@ -12,7 +12,7 @@ function SocialSection() {
         <Container className="text-center">
           <Row className="justify-content-md-center text-center">
             <Col className="text-center" lg="8" md="12">
-              <h3>Follow on Social Media!</h3>
+              <h3>Thank you for your support!</h3>
             </Col>
             <Col className="text-center" lg="8" md="12">
               <Button

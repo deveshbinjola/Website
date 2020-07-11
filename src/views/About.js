@@ -54,7 +54,7 @@ function About() {
             </div>
             <div className="name">
               <h4 className="title">
-                Jane Faker <br />
+                Sunny Binjola <br />
               </h4>
               <h6 className="description">Music Producer</h6>
             </div>

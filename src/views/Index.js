@@ -25,6 +25,10 @@ import SectionLogin from "views/index-sections/SectionLogin.js";
 import SectionExamples from "views/index-sections/SectionExamples.js";
 import SectionDownload from "views/index-sections/SectionDownload.js";
 import ExploreSection from "./sections/ExploreSection.js";
+import SocialSection from "./sections/SocialSection.js";
+import StorySection from "./sections/StorySection.js";
+import SubscribeSection from "./sections/SubscribeSection.js";
+
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -39,9 +43,11 @@ function Index() {
       <IndexNavbar />
       <IndexHeader />
       <div className="main">
-        <LatestBlogPosts />
         <ExploreSection />
-        <SectionButtons />
+        <StorySection />
+        <LatestBlogPosts />
+
+        {/* <SectionButtons />
         <SectionNavbars />
         <SectionNavigation />
         <SectionProgress />
@@ -50,10 +56,11 @@ function Index() {
         <SectionJavaScript />
         <SectionCarousel />
         <SectionNucleoIcons />
-        <SectionDark />
-        <SectionLogin />
-        <SectionExamples />
-        <SectionDownload />
+        <SectionDark /> */}
+        <SubscribeSection />
+        {/* <SectionExamples /> */}
+
+        {/* <SectionDownload /> */}
         <DemoFooter />
       </div>
     </>

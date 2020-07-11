@@ -3,14 +3,12 @@ import React from "react";
 import classnames from "classnames";
 // reactstrap components
 import {
-  Button,
   Collapse,
   NavbarBrand,
   Navbar,
   NavItem,
   NavLink,
-  Nav,
-  Container,
+  Nav
 } from "reactstrap";
 
 function NavBar() {

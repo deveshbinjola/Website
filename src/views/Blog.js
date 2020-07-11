@@ -18,10 +18,8 @@ import {
 } from "reactstrap";
 
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
-import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
+
 import DemoFooter from "components/Footers/DemoFooter.js";
-import SectionCarousel from "./index-sections/SectionCarousel";
 import NavBar from "./sections/Navbar.js";
 
 function Blog() {
@@ -34,6 +32,62 @@ function Blog() {
           Latest Blog Posts
         </h1>
         <br />
+        {/* <Row>
+        <Col sm='4'>
+        <a href="iceland">
+          <img
+                alt="..."
+                className="img img-no-padding img-responsive"
+                src={require("assets/img/Photos/smoky_1.jpg")}
+                height='280'
+                width='350'
+              />
+          </a>
+
+          </Col>
+          <Col sm='4'>
+          <h3 className="text-center">5 Days in Iceland</h3>
+
+          </Col>
+
+        </Row>
+        <Row>
+        <Col sm='4'>
+        <a href="switzerland">
+          <img
+                alt="..."
+                className="img img-no-padding img-responsive"
+                src={require("assets/img/Photos/8.jpg")}
+                height='280'
+                width='350'
+              />
+          </a>
+
+          </Col>
+          <Col sm='4'>
+          <h3 className="text-center">3 Days in Switzerland</h3>
+
+          </Col>
+        </Row>
+        <Row>
+        <Col sm='4'>
+        <a href="paris">
+          <img
+                alt="..."
+                className="img img-no-padding img-responsive"
+                src={require("assets/img/Photos/paris.jpg")}
+                height='280'
+                width='350'
+              />
+          </a>
+
+          </Col>
+          <Col sm='4'>
+          <h3 className="text-center">Weekend in Paris</h3>
+
+          </Col>
+        </Row> */}
+ 
         <Row>
           <Col sm="6" lg="4">
           <a href="iceland">
