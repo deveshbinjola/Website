@@ -8,14 +8,16 @@ function Switzerland() {
     return (
         <>
        <NavBar />
-       <Jumbotron style={{ backgroundImage: `url(${imgUrl})`, backgroundSize: 'cover', minHeight:600 }}>
-        <h1 className="display-3" style={{ color: 'white' }}>5 Days Alone in Iceland</h1>
+       <Jumbotron style={{ backgroundImage: `url(${imgUrl})`, backgroundSize: 'cover', minHeight:600, zIndex: -2}}>
+
+         <Container>
+        <h1 className="display-3" style={{ color: 'white' }}>3 Bucketlist Places in Switzerland</h1>
         <h4 className="subheading" style={{ color: 'white' }}>
         My first solo trip to Iceland was nothing less than total roller coaster. From loosing my bag to falling in a glacial lake to getting stuck alone in a black sand beach, there was nothing more excitement I could have asked for.
         <br /><br />
         <Button color="primary" target= '_blank' href ="https://www.youtube.com/watch?v=bqGP6tWxaTs&t=8s" >Travel Video</Button>
 
-        </h4>
+        </h4></Container>
         </Jumbotron>
         <Container>
         <p className="lead">
