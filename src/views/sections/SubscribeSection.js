@@ -19,12 +19,13 @@ import {
 function SubscribeSection() {
   return (
     <>
-       <div className="section">
+       <div className="">
         <Container >
+        <h2 className="text-center">
+Subscribe to Monthly Newsletter</h2>
           <Row>
-          <Col sm="12" md={{ size: 6, offset: 3 }}>
+          <Col sm="6" md={{ size: 4, offset: 4 }}>
             <Container>
-
                   <InputGroup>
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText>
@@ -33,7 +34,6 @@ function SubscribeSection() {
                     </InputGroupAddon>
                     <Input placeholder="Email" type="email" />
                   </InputGroup>
-
                   <Button
                     block
                     className="btn-round"

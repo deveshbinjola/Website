@@ -21,6 +21,7 @@ function TravelSmarter() {
         </Jumbotron>
         <Container>
         <p className="lead">
+          
         So I have been making these travel videos for some time now but I have been travelling for a very long time and I know filming and editing these amazing pieces of art is incredibly fun but my main motive to start this channel/blog was to help my friends and other people around the world. I have consumed hours and hours of travel filmmaking content but one thing I figured out is that there is a shortage of content where creators are not talking about good ways for cheaper travel and the biggest reason is that influencers get sponsorship for their travel expenses and to be honest we can not all be influencers. So here's my guide for travelling cheaper, better, smarter. 
 
 First things first, I will narrow down the things which are really important while travelling and it consists of 5 major things and I will add up secret 6th tip in the end:
