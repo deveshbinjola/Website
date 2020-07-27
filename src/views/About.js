@@ -49,23 +49,20 @@ function About() {
               <img
                 alt="..."
                 className="img-circle img-no-padding img-responsive"
-                src={require("assets/img/faces/joe-gardner-2.jpg")}
+                src={require("assets/img/Photos/me.jpg")}
               />
             </div>
             <div className="name">
               <h4 className="title">
                 Sunny Binjola <br />
               </h4>
-              <h6 className="description">Music Producer</h6>
+              <h6 className="description">DIGITAL CREATOR</h6>
             </div>
           </div>
           <Row>
             <Col className="ml-auto mr-auto text-center" md="6">
               <p>
-                An artist of considerable range, Jane Faker — the name taken by
-                Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-                and records all of his own music, giving it a warm, intimate
-                feel with a solid groove structure.
+                I write this blog to learn. 
               </p>
               <br />
               <Button className="btn-round" color="default" outline>

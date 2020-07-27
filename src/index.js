@@ -20,6 +20,7 @@ import Iceland from "views/blog/Iceland";
 import Switzerland from "views/blog/Switzerland";
 import Paris from "views/blog/Paris";
 import ReactGA from "react-ga";
+import FirstCard from "views/FirstCard";
 // others
 
 ReactGA.initialize('UA-82402078-1');
@@ -73,6 +74,10 @@ ReactDOM.render(
       <Route
         path="/paris"
         render={(props) => <Paris {...props} />}
+      />
+      <Route
+        path="/firstcard"
+        render={(props) => <FirstCard {...props} />}
       />
       <Redirect to="/index" />
     </Switch>

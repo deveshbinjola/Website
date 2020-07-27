@@ -77,6 +77,7 @@ function SectionCarousel() {
     <>
       <div className="section pt-o" id="carousel">
         <Container>
+          <h1 className='text-center heading'>Portfolio</h1>
           <Row>
             <Col className="ml-auto mr-auto" md="8">
               <Card className="page-carousel">
