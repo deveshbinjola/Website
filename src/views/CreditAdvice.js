@@ -1,7 +1,7 @@
 import React from "react";
 import DemoFooter from "components/Footers/DemoFooter.js";
 import NavBar from "./sections/Navbar.js";
-import { Container, Jumbotron } from "reactstrap";
+import { Container, Jumbotron, Row, Col } from "reactstrap";
 import imgUrl from "assets/img/credit.jpg";
 
 function CreditAdvice() {
@@ -81,6 +81,47 @@ function CreditAdvice() {
           So this part is basically targeted towards people living in the United States but will apply to other countries as well depending on their Credit system and credit card rewards. 
           <br /> <br />
           </p>
+          <Row>
+          <Col sm="6" lg="4">
+          <a href="/firstcard"          
+          target="_blank">
+          <img
+                alt="..."
+                className="img-rounded img-no-padding img-responsive"
+                src={require("assets/img/firstcard.jpg")}
+                height='350px'
+                width='350px'
+              />
+             <h4 className="text-center">Applying for your First Card</h4>
+          </a>
+          </Col>
+          <Col sm="6" lg="4">
+          <a href="/top10cards"                 
+          target="_blank">
+          <img
+                alt="..."
+                className="img-rounded img-no-padding img-responsive"
+                src={require("assets/img/credit.jpg")}
+                height='350px'
+                width='350px'
+              />
+                <h4 className="text-center">Top 10 Credit Cards</h4>
+          </a>
+          </Col>          
+          <Col sm="6" lg="4">
+          <a href="/battleofthebest"          
+          target="_blank">
+          <img
+                alt="..."
+                className="img-rounded img-no-padding img-responsive"
+                src={require("assets/img/top3.png")}
+                height='350px'
+                width='350px'
+              />
+                <h4 className="text-center">Best Travel Cards</h4>
+          </a>
+          </Col>
+        </Row>
         </Container>
         <DemoFooter />
         </>

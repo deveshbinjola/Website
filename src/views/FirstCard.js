@@ -2,11 +2,20 @@ import React from "react";
 import DemoFooter from "components/Footers/DemoFooter.js";
 import NavBar from "./sections/Navbar.js";
 import { Container, Jumbotron } from "reactstrap";
+import imgUrl from "assets/img/credit.jpg";
 
 function FirstCard() {
     return (
         <>
         <NavBar />
+        <Jumbotron className="jumbotron" style={{ backgroundImage: `url(${imgUrl})`}}>
+       <div className="overlay"></div>
+
+       <Container>
+         <br /> <br /><br /> <br />
+        <h6 className="display-3 text-center" style={{ color: 'white' }}><span id="textSpan" style={{fontWeight:'bold'}}>Applying for your First credit card</span></h6>
+        </Container>
+        </Jumbotron>
         <Container>
           <p className='lead'>
           My First Credit Card was Bank of America Cash Rewards Card which I got on the day I got my SSN. I still have that card with me and it has been useful in many ways for me.

@@ -21,6 +21,8 @@ import Switzerland from "views/blog/Switzerland";
 import Paris from "views/blog/Paris";
 import ReactGA from "react-ga";
 import FirstCard from "views/FirstCard";
+import Top10Cards from "views/Top10Cards";
+import BattleoftheBest from "views/BattleoftheBest";
 // others
 
 ReactGA.initialize('UA-82402078-1');
@@ -78,6 +80,14 @@ ReactDOM.render(
       <Route
         path="/firstcard"
         render={(props) => <FirstCard {...props} />}
+      />
+      <Route
+        path="/top10cards"
+        render={(props) => <Top10Cards {...props} />}
+      />
+      <Route
+        path="/battleofthebest"
+        render={(props) => <BattleoftheBest {...props} />}
       />
       <Redirect to="/index" />
     </Switch>

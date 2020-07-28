@@ -3,7 +3,6 @@ import React from "react";
 import classnames from "classnames";
 // reactstrap components
 import {
-  Button,
   Collapse,
   NavbarBrand,
   Navbar,
@@ -73,9 +72,9 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
-          <NavItem>
+          {/* <NavItem>
               <NavLink href="about">About</NavLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLink href="blog">Blog</NavLink>
             </NavItem>

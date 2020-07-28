@@ -79,9 +79,9 @@ function ExamplesNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
-          <NavItem>
+          {/* <NavItem>
               <NavLink href="about">About</NavLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLink href="blog">Blog</NavLink>
             </NavItem>

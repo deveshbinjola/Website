@@ -2,20 +2,9 @@ import React from "react";
 
 // reactstrap components
 import {
-  Button,
-  Label,
-  FormGroup,
-  Input,
-  NavItem,
-  NavLink,
-  Nav,
-  TabContent,
-  TabPane,
   Container,
   Row,
-  Col,
-  Jumbotron,
-} from "reactstrap";
+  Col} from "reactstrap";
 
 // core components
 

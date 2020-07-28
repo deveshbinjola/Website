@@ -6,9 +6,8 @@ function StorySection() {
     return (
       <>
       <Container>
-        <h2 className="text-center">
-          Story
-        </h2>
+      <h6 className="display-4 text-center"><span id="textSpan" style={{fontWeight:'bold'}}>Story</span></h6>
+
           <Row>
             <Col sm="6" >
             <a href="hiking">

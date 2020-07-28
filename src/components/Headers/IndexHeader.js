@@ -39,7 +39,7 @@ function IndexHeader() {
           }}
         />
         <h6 className="category category-absolute">
-          Designed and coded by  
+          Created By  
 
           <a
             href="about"

@@ -20,7 +20,7 @@ import {
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
-import SectionCarousel from "./index-sections/SectionCarousel";
+import SectionCarousel from "./sections/SectionCarousel";
 
 function About() {
   const [activeTab, setActiveTab] = React.useState("1");

@@ -6,9 +6,8 @@ function ExploreSection() {
     return (
       <>
       <Container>
-        <h2 className="text-center">
-          Explore
-        </h2>
+      <h6 className="display-4 text-center"><span id="textSpan" style={{fontWeight:'bold'}}>Explore</span></h6>
+
           <Row>
             <Col sm="4" lg="3">
             <a href="hiking">
@@ -19,7 +18,7 @@ function ExploreSection() {
                   height='350px'
                   width='300px'
                 />
-                <h4 className="text-center">Hiking</h4>
+                <h4 className="text-center" style={{ color: 'black' }}>Hiking</h4>
             </a>
             </Col>
             <Col sm="4" lg="3">
@@ -31,7 +30,7 @@ function ExploreSection() {
                   height='350px'
                   width='300px'
                 />
-                <h4 className="text-center">Travel Blog</h4>
+                <h4 className="text-center" style={{ color: 'black' }}>Travel Blog</h4>
                 </a>
             </Col>          
             <Col sm="4" lg="3">
@@ -43,7 +42,7 @@ function ExploreSection() {
                   height='350px'
                   width='300px'
                 />
-            <h4 className="text-center">Travel Tips</h4>
+            <h4 className="text-center" style={{ color: 'black' }}>Travel Tips</h4>
             </a>
             </Col>
             <Col sm="4" lg="3">
@@ -55,7 +54,7 @@ function ExploreSection() {
                   height='350px'
                   width='300px'
                 />
-            <h4 className="text-center">How to travel cheaper, smarter, better?</h4>
+            <h4 className="text-center" style={{ color: 'black' }}>How to travel cheaper, smarter, better?</h4>
             </a>
             </Col>
           </Row>
