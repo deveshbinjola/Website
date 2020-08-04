@@ -2,7 +2,7 @@ import React from "react";
 import DemoFooter from "components/Footers/DemoFooter.js";
 import NavBar from "./sections/Navbar.js";
 import { Jumbotron, Container } from "reactstrap";
-import imgUrl from "assets/img/globe.jpg";
+import imgUrl from "assets/img/bus.jpg";
 
 function DigitalNomad() {
     return (

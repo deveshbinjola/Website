@@ -17,9 +17,8 @@ function Blog() {
     <>
     <NavBar />
       <Container>
-        <h1 className="text-center">
-          Latest Blog Posts
-        </h1>
+      <h6 className="display-3 text-center" style={{ color: 'black' }}><span id="textSpan" style={{fontWeight:'bold'}}>BLOG</span></h6>
+
         <br />
         {/* <Row>
         <Col sm='4'>
@@ -87,7 +86,7 @@ function Blog() {
                 height='450px'
                 width='350px'
               />
-             <h4 className="text-center">5 Days in Iceland</h4>
+             <h4 className=" display-5 text-center" style={{ color: 'black' }}>5 Days in Iceland</h4>
           </a>
           </Col>
           <Col sm="6" lg="4">
@@ -99,7 +98,7 @@ function Blog() {
                 height='450px'
                 width='350px'
               />
-                <h4 className="text-center">3 Days in Switzerland</h4>
+                <h4 className="text-center" style={{ color: 'black' }} style={{fontWeight:'bold'}}>3 Days in Switzerland</h4>
           </a>
           </Col>          
           <Col sm="6" lg="4">
@@ -111,7 +110,7 @@ function Blog() {
                 height='450px'
                 width='350px'
               />
-                <h4 className="text-center">Weekend in Paris</h4>
+                <h4 className="text-center" style={{ color: 'black' }}>Weekend in Paris</h4>
           </a>
           </Col>
         </Row>

@@ -14,7 +14,7 @@ import SectionCarousel from "views/sections/SectionCarousel.js";
 import ExploreSection from "./sections/ExploreSection.js";
 import StorySection from "./sections/StorySection.js";
 import SubscribeSection from "./sections/SubscribeSection.js";
-
+import { CustomForm } from "./MailingList.js";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -33,6 +33,7 @@ function Index() {
         <StorySection />
         <LatestBlogPosts />
         <SectionCarousel />
+        {/* <CustomForm /> */}
         <SubscribeSection />
         <DemoFooter />
       </div>

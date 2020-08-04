@@ -10,18 +10,6 @@ function ExploreSection() {
 
           <Row>
             <Col sm="4" lg="3">
-            <a href="hiking">
-            <img
-                  alt="..."
-                  className="img-rounded img-no-padding img-responsive"
-                  src={require("assets/img/Photos/smoky_1.jpg")}
-                  height='350px'
-                  width='300px'
-                />
-                <h4 className="text-center" style={{ color: 'black' }}>Hiking</h4>
-            </a>
-            </Col>
-            <Col sm="4" lg="3">
                 <a href="travelblog">
             <img
                   alt="..."
@@ -32,13 +20,25 @@ function ExploreSection() {
                 />
                 <h4 className="text-center" style={{ color: 'black' }}>Travel Blog</h4>
                 </a>
-            </Col>          
+            </Col>    
+            <Col sm="4" lg="3">
+            <a href="hiking">
+            <img
+                  alt="..."
+                  className="img-rounded img-no-padding img-responsive"
+                  src={require("assets/img/Photos/Switzerland/6.jpg")}
+                  height='350px'
+                  width='300px'
+                />
+                <h4 className="text-center" style={{ color: 'black' }}>Hiking</h4>
+            </a>
+            </Col>      
             <Col sm="4" lg="3">
             <a href="traveltips">
             <img
                   alt="..."
                   className="img-rounded img-no-padding img-responsive"
-                  src={require("assets/img/Photos/paris.jpg")}
+                  src={require("assets/img/traveltips.jpg")}
                   height='350px'
                   width='300px'
                 />
@@ -46,11 +46,11 @@ function ExploreSection() {
             </a>
             </Col>
             <Col sm="4" lg="3">
-            <a href="">
+            <a href="/travelsmarter">
             <img
                   alt="..."
                   className="img-rounded img-no-padding img-responsive"
-                  src={require("assets/img/Photos/paris.jpg")}
+                  src={require("assets/img/car.jpg")}
                   height='350px'
                   width='300px'
                 />

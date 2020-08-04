@@ -77,9 +77,9 @@ function CreditAdvice() {
           I have been using this card since 2016 (when it first launched) and has been my primary card. This card gets even better if you have <span id="textSpan" style={{fontWeight:'bold'}}>Chase Freedom Unlimited</span> and <span id="textSpan" style={{fontWeight:'bold'}}>Chase Ink Preferred.</span> I am not asking to get this card but just trying to tell that if you use the cards properly, the benefits outweigh the annual fee.
 
           <br /><br />
-          <a href="/firstcard">Applying for your First Card</a>
-          So this part is basically targeted towards people living in the United States but will apply to other countries as well depending on their Credit system and credit card rewards. 
+          So this page is basically targeted towards people living in the United States but will apply to other countries as well depending on their Credit system and credit card rewards. 
           <br /> <br />
+          Check out few posts below to kick start your credit.
           </p>
           <Row>
           <Col sm="6" lg="4">

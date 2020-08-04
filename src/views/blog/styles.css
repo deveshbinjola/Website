@@ -6,6 +6,13 @@
     height: 450px;
     position: relative;
   }
+  .jumbotron550 {
+    background: url(${imgUrl}) no-repeat fixed bottom;
+    background-size: cover;
+    color: #efefef;
+    height: 550px;
+    position: relative;
+  }
   .overlay {
     background-color: #000;
     opacity: 0.4;

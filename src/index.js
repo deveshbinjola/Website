@@ -15,7 +15,6 @@ import DigitalNomad from "views/DigitalNomad.js";
 import TravelBlog from "views/TravelBlog.js";
 import TravelTips from "views/TravelTips";
 import Hiking from "views/Hiking";
-import TravelSmarter from "views/blog/TravelSmarter";
 import Iceland from "views/blog/Iceland";
 import Switzerland from "views/blog/Switzerland";
 import Paris from "views/blog/Paris";
@@ -23,6 +22,7 @@ import ReactGA from "react-ga";
 import FirstCard from "views/FirstCard";
 import Top10Cards from "views/Top10Cards";
 import BattleoftheBest from "views/BattleoftheBest";
+import TravelSmarter from "views/blog/TravelSmarter";
 // others
 
 ReactGA.initialize('UA-82402078-1');
@@ -62,10 +62,6 @@ ReactDOM.render(
         render={(props) => <Hiking {...props} />}
       />
       <Route
-        path="/travelsmarter"
-        render={(props) => <TravelSmarter {...props} />}
-      />
-      <Route
         path="/iceland"
         render={(props) => <Iceland {...props} />}
       />
@@ -88,6 +84,10 @@ ReactDOM.render(
       <Route
         path="/battleofthebest"
         render={(props) => <BattleoftheBest {...props} />}
+      />
+      <Route
+        path="/travelsmarter"
+        render={(props) => <TravelSmarter {...props} />}
       />
       <Redirect to="/index" />
     </Switch>
