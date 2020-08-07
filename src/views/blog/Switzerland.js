@@ -15,7 +15,7 @@ function Switzerland() {
          <Container>
         <h6 className="display-3" style={{ color: 'white' }}><span id="textSpan" style={{fontWeight:'bold'}}>3 Bucketlist Places in Switzerland</span></h6>
         <h6 className="subheading" style={{ color: 'white' }}><span id="textSpan" style={{fontWeight:'bold'}}>
-        Switzerland .</span>
+        Switzerland is one of the most beautiful countries in the world. Switzerland is an amazing country with beautiful mountains, blue clearwater lakes, delicious food and amazing people.</span>
         <br /><br />
         <Button color="primary" target= '_blank' href ="https://www.youtube.com/watch?v=dtJ1SgLpdzA&t=1s" >Watch Travel Video</Button>
 
@@ -23,7 +23,7 @@ function Switzerland() {
         </Jumbotron>
         <Container>
         <p className='lead text-justify' style={{ color: 'black' }}>
-        So after exploring Iceland I headed to my second destination. Switzerland is an amazing country with beautiful mountains, blue clearwater lakes, delicious food and amazing people but what really stands out for me about Switzerland is it's neutrality. Switzerland has been a neutral country forever even during WW2 when Hitler almost captured all of Europe but couldn’t do anything to Switzerland. We as humans have been divided in every step of the way, be it religion, politics, decisions, everything but overcoming all these challenges and finding a middle ground is what brings happiness and that is why Switzerland has been one of the most happiest countries in the world. And I was excited to explore this amazing country and meet some amazing people.
+        So after exploring Iceland I headed to my second destination, Switzerland. It is an amazing country but what really stands out for me about Switzerland is it's neutrality. Switzerland has been a neutral country forever even during WW2 when Hitler almost captured all of Europe but couldn’t do anything to Switzerland. We as humans have been divided in every step of the way, be it religion, politics, decisions, everything but overcoming all these challenges and finding a middle ground is what brings happiness and that is why Switzerland has been one of the most happiest countries in the world. And I was excited to explore this amazing country and meet some amazing people.
         <center><img
                   alt="..."
                   className="img-rounded img-responsive "
@@ -52,7 +52,7 @@ function Switzerland() {
                   src={require("assets/img/Photos/Switzerland/3.jpg")}
                 />
                 <center></center><small>
-                  Appenzell Valley</small></center>
+                  Lauterbrunnen</small></center>
 <br />The craziest thing about Switzerland is that they have restaurants and lodges in some unique locations and this one of these. I always try to have some food which is really famous from that place, here I had Rosti which was made of potatoes and topped with eggs and bacon and had some local Appenzell beer. The lunch was delicious and my view was spectacular making it one of my best meals of life. After enjoying my meal I headed back to the cable car and then back to my car. I drove towards Zurich where I wanted to buy a tripod for my camera as my bag was lost by the airline.
 <center><img
                   alt="..."
@@ -62,7 +62,7 @@ function Switzerland() {
                   src={require("assets/img/Photos/Switzerland/4.jpg")}
                 />
                 <center></center><small>
-                  Appenzell Valley</small></center>
+                  Wengen, Jungfrau Region</small></center>
 <br />I met an old Swiss couple on the top who told me about Rhine falls and some other great places in Switzerland and also suggested I visit back in May when the flowers in the valley turn pink and blue which makes this place out of the world. The only downside of East Switzerland was that there was no internet access here. I was using my Sprint (US) number, which worked everywhere else except in East Switzerland. After Zurich and around the area I headed down to my next bucket list destination, Lauterbrunnen. I stopped in a lot of places in between which I always do and this is one of the great benefits of a road trip.
 <center><img
                   alt="..."
@@ -72,28 +72,19 @@ function Switzerland() {
                   src={require("assets/img/Photos/Switzerland/9.jpg")}
                 />
                 <center></center><small>
-                  Appenzell Valley</small></center>
+                  Lauterbrunnen Waterfalls </small></center>
 <br />I reached Lauterbrunnen around 8:30 PM which is kinda late for a village in a remote valley and finally now I got some internet access which was surprising because I didn't get any internet access in Zurich as well. Most of the hostels were closed but luckily I was able to find a room in Valley Hostel for $49, they were open just because one of the customers had not checked in yet. I got super lucky with this place as they had an empty room and they gave it to me for a really low price. I slept pretty nicely, charged up all my batteries and next morning I was ready for the most beautiful place in Switzerland and boy I was not let down. 
 <center><img
                   alt="..."
                   className="img-rounded img-responsive "
                   height="400px"
                   
-                  src={require("assets/img/Photos/Switzerland/1.jpg")}
+                  src={require("assets/img/Photos/Switzerland/6.jpg")}
                 />
                 <center></center><small>
-                  Appenzell Valley</small></center>
+                  Oischenese Lake</small></center>
 <br />This place is one of the most beautiful places I have ever been to. The waterfalls falling down in the valley made this valley feel so beautiful. I had to hike to Wengen, another closeby village where you can either hike or take a train for around $10, I chose to hike and that was one of the best decisions, the hike up and down Wengen was truly breathtaking. The views were really amazing and there were not many people on the hike so it was very nice and quiet. Wengen was quite amazing. I had lunch, I also bought some Swiss chocolates, enjoyed the beautiful views of the valley and flew my drone around. After spending some time in Wengen I came back down to explore Lauterbrunnen. 
-<center><img
-                  alt="..."
-                  className="img-rounded img-responsive "
-                  height="400px"
-                  
-                  src={require("assets/img/Photos/Switzerland/1.jpg")}
-                />
-                <center></center><small>
-                  Appenzell Valley</small></center>
-<br />I drove and walked around the valley, hiked up to the most beautiful waterfall there. After exploring Lauterbrunnen, I went to drive to Grindelwald, another beautiful Swiss town 20 mins away. The weather at this time started to change a little bit but the drive from Lauterbrunnen was absolutely amazing. I walked around Grindelwald, had a coffee and drove up to mountains for quite a while. I won’t lie but driving here was quite fun and for someone who really loves mountains, Jungfrau valley is like heaven. 
+I drove and walked around the valley, hiked up to the most beautiful waterfall there. After exploring Lauterbrunnen, I went to drive to Grindelwald, another beautiful Swiss town 20 mins away. The weather at this time started to change a little bit but the drive from Lauterbrunnen was absolutely amazing. I walked around Grindelwald, had a coffee and drove up to mountains for quite a while. I won’t lie but driving here was quite fun and for someone who really loves mountains, Jungfrau valley is like heaven. 
 <center><img
                   alt="..."
                   className="img-rounded img-responsive "
@@ -109,20 +100,20 @@ function Switzerland() {
                   className="img-rounded img-responsive "
                   height="400px"
                   
-                  src={require("assets/img/Photos/Switzerland/1.jpg")}
+                  src={require("assets/img/Photos/Switzerland/6.jpg")}
                 />
                 <center></center><small>
-                  Appenzell Valley</small></center>
+                Oischenese Lake</small></center>
 <br />After having my amazing meal I slept and next morning I woke up around sunrise which basically was super cool as the sun light started to hit the top of the mountains. After cleaning myself up I took the cable car up to the mountain. The cost of the ticket was 22 Swiss Francs/US Dollars. There was a 45 min hike down to the lake from the cable car station. I reached the lake and I can swear on this I have never seen more blue water than this lake and with such a huge backdrop. I hiked around the lake, took a lot of pictures and flew my drone around. There was a hotel and restaurant next to the lake. My excitement was cut short as the storm was coming closer and closer and it started raining. So I headed back to my car and then headed to my next destination which was Paris. I definitely wanted to explore more of Switzerland but sometimes things are not in your control and I have learnt to respect that and know that there will always be a next time. So till next time.
 <center><img
                   alt="..."
                   className="img-rounded img-responsive "
                   height="400px"
                   
-                  src={require("assets/img/Photos/Switzerland/1.jpg")}
+                  src={require("assets/img/Photos/swiss.jpg")}
                 />
                 <center></center><small>
-                  Appenzell Valley</small></center>
+                  Oischenese Lake</small></center>
 <br />My trip was way cheaper than what most people spend in Switzerland. Hotels are generally a little expensive in Switzerland but I paid $70 in accommodations as I stayed in cheap places and basically slept in my car in a gas station one night. I have done this a few times so I feel comfortable doing it but I really don’t suggest anyone to do it who isn't comfortable. I spend around $54 on cable car tickets, you can skip these tickets if you want to hike up but I had less time so I chose to spend money on the ticket and then hike after that. I rented an Audi A4 for 8 days for less than $300 from Sixt and the car was great. 
 <center><img
                   alt="..."

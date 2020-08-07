@@ -86,7 +86,7 @@ function Blog() {
                 height='450px'
                 width='350px'
               />
-             <h4 className=" display-5 text-center" style={{ color: 'black' }}>5 Days in Iceland</h4>
+             <h4 className="text-center" style={{ color: 'black' }} style={{fontWeight:'bold'}}>5 Days in Iceland</h4>
           </a>
           </Col>
           <Col sm="6" lg="4">
@@ -110,7 +110,7 @@ function Blog() {
                 height='450px'
                 width='350px'
               />
-                <h4 className="text-center" style={{ color: 'black' }}>Weekend in Paris</h4>
+                <h4 className="text-center" style={{ color: 'black' }} style={{fontWeight:'bold'}}>Weekend in Paris</h4>
           </a>
           </Col>
         </Row>
