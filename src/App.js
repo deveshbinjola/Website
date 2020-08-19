@@ -41,7 +41,7 @@ class App extends Component {
           <hr />
   
           <Route exact path="/" component={Index} />
-          <Route path="/about" component={About} />
+          <Route path="/blog" component={Blog} />
         </div>
       </HashRouter>
     );
