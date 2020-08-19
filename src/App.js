@@ -28,28 +28,94 @@ import TravelSmarter from "views/blog/TravelSmarter";
 ReactGA.initialize('UA-82402078-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
-class App extends Component {
-  render() {
-    return (
-      <HashRouter basename="/">
-        <div>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-          </ul>
+// class App extends Component {
+//   render() {
+//     return (
+//       <HashRouter basename="/">
+//         <div>
+//           <ul>
+//             <li><Link to="/">Home</Link></li>
+//             <li><Link to="/about">About</Link></li>
+//           </ul>
 
-          <hr />
+//           <hr />
   
-          <Route exact path="/" component={Index} />
-          <Route path="/blog" component={Blog} />
-        </div>
-      </HashRouter>
-    );
-  }
-}
+//           <Route exact path="/" component={Index} />
+//           <Route path="/about" component={About} />
+//         </div>
+//       </HashRouter>
+//     );
+//   }
+// }
 
-const Home = () => <div><h2>Home</h2></div>
-const About = () => <div><h2>About</h2></div>
+// const Home = () => <div><h2>Home</h2></div>
+// const About = () => <div><h2>About</h2></div>
 
-export default App;
+// export default App;
+ReactDOM.render(
+<Router basename={process.env.PUBLIC_URL}>
+  
+    <Switch>
+      <Route path="/" render={(props) => <Index {...props} />} />
+      <Route
+        path="/about"
+        render={(props) => <About {...props} />}
+      />
+      <Route
+        path="/blog"
+        render={(props) => <Blog {...props} />}
+      />
+      <Route
+        path="/creditadvice"
+        render={(props) => <CreditAdvice {...props} />}
+      />
+      <Route
+        path="/digitalnomad"
+        render={(props) => <DigitalNomad {...props} />}
+      />
+      <Route
+        path="/travelblog"
+        render={(props) => <TravelBlog {...props} />}
+      />
+      <Route
+        path="/traveltips"
+        render={(props) => <TravelTips {...props} />}
+      />
+      <Route
+        path="/hiking"
+        render={(props) => <Hiking {...props} />}
+      />
+      <Route
+        path="/iceland"
+        render={(props) => <Iceland {...props} />}
+      />
+      <Route
+        path="/switzerland"
+        render={(props) => <Switzerland {...props} />}
+      />
+      <Route
+        path="/paris"
+        render={(props) => <Paris {...props} />}
+      />
+      <Route
+        path="/firstcard"
+        render={(props) => <FirstCard {...props} />}
+      />
+      <Route
+        path="/top10cards"
+        render={(props) => <Top10Cards {...props} />}
+      />
+      <Route
+        path="/battleofthebest"
+        render={(props) => <BattleoftheBest {...props} />}
+      />
+      <Route
+        path="/travelsmarter"
+        render={(props) => <TravelSmarter {...props} />}
+      />
+      <Redirect to="/" />
+    </Switch>
 
+  </Router>
+  // document.getElementById("root")
+);
