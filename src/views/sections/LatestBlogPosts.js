@@ -10,7 +10,7 @@ function LatestBlogPosts() {
 
           <Row>
             <Col sm="6" lg="4">
-            <a href="iceland">
+            <Link to="iceland">
             <img
                   alt="..."
                   className="img-rounded img-no-padding img-responsive"
@@ -19,10 +19,10 @@ function LatestBlogPosts() {
                   width='350px'
                 />
                 <h4 className="text-center" style={{ color: 'black' }}>5 Days in Iceland</h4>
-            </a>
+            </Link>
             </Col>
             <Col sm="6" lg="4">
-            <a href="switzerland">             
+            <Link to="switzerland">             
             <img
                   alt="..."
                   className="img-rounded img-no-padding img-responsive"
@@ -31,10 +31,10 @@ function LatestBlogPosts() {
                   width='350px'
                 />
                 <h4 className="text-center" style={{ color: 'black' }}>3 Days in Switzerland</h4>
-            </a>
+            </Link>
             </Col>          
             <Col sm="6" lg="4">
-              <a href="paris">
+              <Link to="paris">
             <img
                   alt="..."
                   className="img-rounded img-no-padding img-responsive"
@@ -43,7 +43,7 @@ function LatestBlogPosts() {
                   width='350px'
                 />
                 <h4 className="text-center" style={{ color: 'black' }}>Weekend in Paris</h4>
-              </a>
+              </Link>
             </Col>
           </Row>
           </Container>
