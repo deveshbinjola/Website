@@ -32,7 +32,7 @@ ReactDOM.render(
   <BrowserRouter>
   
     <Switch>
-      <Route path="/index" render={(props) => <Index {...props} />} />
+      <Route path="/" render={(props) => <Index {...props} />} />
       <Route
         path="/about"
         render={(props) => <About {...props} />}
@@ -89,7 +89,7 @@ ReactDOM.render(
         path="/travelsmarter"
         render={(props) => <TravelSmarter {...props} />}
       />
-      <Redirect to="/index" />
+      <Redirect to="/" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
