@@ -56,7 +56,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
   {/* routes */}
 // </Router>
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
   
     <Switch>
       <Route path="/" render={(props) => <Index {...props} />} />
@@ -118,6 +118,6 @@ ReactDOM.render(
       />
       <Redirect to="/" />
     </Switch>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );
