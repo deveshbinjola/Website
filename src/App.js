@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom";
-import { BrowserRouter, Redirect, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 import React, { Component } from 'react';
-import { HashRouter, Route, Link } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 // styles
 import "assets/css/bootstrap.min.css";
 import "assets/scss/paper-kit.scss?v=1.2.0";
@@ -56,7 +56,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
   {/* routes */}
 // </Router>
 ReactDOM.render(
-  <HashRouter>
+  <Router>
   
     <Switch>
       <Route path="/" render={(props) => <Index {...props} />} />
@@ -118,6 +118,6 @@ ReactDOM.render(
       />
       <Redirect to="/" />
     </Switch>
-  </HashRouter>,
+  </Router>,
   document.getElementById("root")
 );
