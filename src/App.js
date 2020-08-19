@@ -61,19 +61,19 @@ ReactDOM.render(
     <Switch>
       <Route path="/" render={(props) => <Index {...props} />} />
       <Route
-        path="/about"
+        path="#/about"
         render={(props) => <About {...props} />}
       />
       <Route
-        path="/blog"
+        path="#/blog"
         render={(props) => <Blog {...props} />}
       />
       <Route
-        path="/creditadvice"
+        path="#/creditadvice"
         render={(props) => <CreditAdvice {...props} />}
       />
       <Route
-        path="/digitalnomad"
+        path="#/digitalnomad"
         render={(props) => <DigitalNomad {...props} />}
       />
       <Route
