@@ -74,13 +74,13 @@ function NavBar() {
               <NavLink href="about">About</NavLink>
             </NavItem> */}
             <NavItem>
-              <NavLink href="blog">Blog</NavLink>
+              <NavLink href="/blog">Blog</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="creditadvice">Credit Advice</NavLink>
+              <NavLink href="/creditadvice">Credit Advice</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="digitalnomad">Digital Nomad</NavLink>
+              <NavLink href="/digitalnomad">Digital Nomad</NavLink>
             </NavItem>
             <NavItem>
               <NavLink

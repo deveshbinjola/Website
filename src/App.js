@@ -52,8 +52,11 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 // const About = () => <div><h2>About</h2></div>
 
 // export default App;
+{/* <Router basename={process.env.PUBLIC_URL}> */}
+  {/* routes */}
+// </Router>
 ReactDOM.render(
-<Router basename={process.env.PUBLIC_URL}>
+  <BrowserRouter>
   
     <Switch>
       <Route path="/" render={(props) => <Index {...props} />} />
@@ -115,7 +118,6 @@ ReactDOM.render(
       />
       <Redirect to="/" />
     </Switch>
-
-  </Router>
-  // document.getElementById("root")
+  </BrowserRouter>,
+  document.getElementById("root")
 );
