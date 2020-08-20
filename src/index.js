@@ -61,7 +61,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
   {/* routes */}
 // </Router>
 ReactDOM.render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
   
     <Switch>
       <Route path="/" render={(props) => <Index {...props} />} />
