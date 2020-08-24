@@ -62,62 +62,62 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 // </Router>
 ReactDOM.render(
   <Router basename={process.env.PUBLIC_URL}>
-  
+
     <Switch>
-      <Route path="/" render={(props) => <Index {...props} />} />
+      <Route exact path="/" render={(props) => <Index {...props} />} />
       <Route
         path="/about"
         render={(props) => <About {...props} />}
       />
-      <Route
+      <Route exact
         path="/blog"
         render={(props) => <Blog {...props} />}
       />
-      <Route
+      <Route exact
         path="/creditadvice"
         render={(props) => <CreditAdvice {...props} />}
       />
-      <Route
+      <Route exact
         path="/digitalnomad"
         render={(props) => <DigitalNomad {...props} />}
       />
-      <Route
+      <Route exact
         path="/travelblog"
         render={(props) => <TravelBlog {...props} />}
       />
-      <Route
+      <Route exact
         path="/traveltips"
         render={(props) => <TravelTips {...props} />}
       />
-      <Route
+      <Route exact
         path="/hiking"
         render={(props) => <Hiking {...props} />}
       />
-      <Route
+      <Route exact
         path="/iceland"
         render={(props) => <Iceland {...props} />}
       />
-      <Route
+      <Route exact
         path="/switzerland"
         render={(props) => <Switzerland {...props} />}
       />
-      <Route
+      <Route exact
         path="/paris"
         render={(props) => <Paris {...props} />}
       />
-      <Route
+      <Route exact
         path="/firstcard"
         render={(props) => <FirstCard {...props} />}
       />
-      <Route
+      <Route exact
         path="/top10cards"
         render={(props) => <Top10Cards {...props} />}
       />
-      <Route
+      <Route exact
         path="/battleofthebest"
         render={(props) => <BattleoftheBest {...props} />}
       />
-      <Route
+      <Route exact
         path="/travelsmarter"
         render={(props) => <TravelSmarter {...props} />}
       />
