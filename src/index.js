@@ -1,11 +1,8 @@
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
-import React, { Component } from 'react';
-import { HashRouter as Router } from "react-router-dom";
+import { HashRouter, Route, Redirect, Switch } from "react-router-dom";
+import React from 'react';
 // styles
-import "assets/css/bootstrap.min.css";
-import "assets/scss/paper-kit.scss?v=1.2.0";
-import "assets/demo/demo.css?v=1.2.0";
+
 // pages
 import Index from "views/Index.js";
 import About from "views/About.js";
@@ -30,7 +27,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 
 
 ReactDOM.render(
-  <Router >
+  <HashRouter basename={process.env.PUBLIC_URL}>
 
     <Switch>
       <Route exact path="/" render={(props) => <Index {...props} />} />
@@ -39,11 +36,11 @@ ReactDOM.render(
         render={(props) => <About {...props} />}
       />
       <Route exact
-        path={process.env.PUBLIC_URL + 'Website/src/views/blog'}
+        path="/blog"
         render={(props) => <Blog {...props} />}
       />
       <Route exact
-              path={process.env.PUBLIC_URL + '/creditadvice'}
+        path="/creditadvice"
         render={(props) => <CreditAdvice {...props} />}
       />
       <Route exact
@@ -67,8 +64,7 @@ ReactDOM.render(
         render={(props) => <Iceland {...props} />}
       />
       <Route exact
-      path={process.env.PUBLIC_URL + '/switzerland'}
-
+        path="/switzerland"
         render={(props) => <Switzerland {...props} />}
       />
       <Route exact
@@ -93,6 +89,6 @@ ReactDOM.render(
       />
       <Redirect to="/" />
     </Switch>
-  </Router>,
+  </HashRouter>,
   document.getElementById("root")
 );
