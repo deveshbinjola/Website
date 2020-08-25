@@ -39,7 +39,7 @@ ReactDOM.render(
         render={(props) => <About {...props} />}
       />
       <Route exact
-        path={process.env.PUBLIC_URL + 'src/views/blog'}
+        path={process.env.PUBLIC_URL + 'Website/src/views/blog'}
         render={(props) => <Blog {...props} />}
       />
       <Route exact
@@ -67,7 +67,7 @@ ReactDOM.render(
         render={(props) => <Iceland {...props} />}
       />
       <Route exact
-        path={process.env.PUBLIC_URL + '/switzerland'}
+      path={process.env.PUBLIC_URL + '/switzerland'}
 
         render={(props) => <Switzerland {...props} />}
       />
