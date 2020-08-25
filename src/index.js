@@ -39,11 +39,11 @@ ReactDOM.render(
         render={(props) => <About {...props} />}
       />
       <Route exact
-        path="/blog"
+        path={process.env.PUBLIC_URL + '/blog'}
         render={(props) => <Blog {...props} />}
       />
       <Route exact
-        path="/creditadvice"
+              path={process.env.PUBLIC_URL + '/creditadvice'}
         render={(props) => <CreditAdvice {...props} />}
       />
       <Route exact
