@@ -48,7 +48,7 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="/index"
+            to="/index"
             target="_blank"
             title="Designed by Sunny Binjola"
           >
@@ -76,7 +76,7 @@ function IndexNavbar() {
               <NavLink href="about">About</NavLink>
             </NavItem> */}
             <NavItem>
-              <NavLink href="blog">Blog</NavLink>
+              <NavLink href="https://thetravelstudent.com/blog/#/">Blog</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="creditadvice">Credit Advice</NavLink>
