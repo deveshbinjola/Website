@@ -28,40 +28,9 @@ import TravelSmarter from "views/blog/TravelSmarter";
 ReactGA.initialize('UA-82402078-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
-// class App extends Component {
-//   render() {
-//     return (
-//         <div>
-//           <Route exact path="/" component={Index} />
-//           <Route path="/about" component={About} />
-//           <Route path="/blog" component={Blog} />
-//           <Route path="/creditadvice" component={CreditAdvice} />
-//           <Route path="/digitalnomad" component={DigitalNomad} />
-//           <Route path="/travelblog" component={TravelBlog} />
-//           <Route path="/traveltips" component={TravelTips} />
-//           <Route path="/hiking" component={Hiking} />
-//           <Route path="/iceland" component={Iceland} />
-//           <Route path="/switzerland" component={Switzerland} />
-//           <Route path="/paris" component={Paris} />
-//           <Route path="/firstcard" component={FirstCard} />
-//           <Route path="/top10cards" component={Top10Cards} />
-//           <Route path="/battleofthebest" component={BattleoftheBest} />
-//           <Route path="/travelsmarter" component={TravelSmarter} />
 
-//         </div>
-//     );
-//   }
-// }
-
-// const Home = () => <div><h2>Home</h2></div>
-// const About = () => <div><h2>About</h2></div>
-
-// export default App;
-{/* <Router basename={process.env.PUBLIC_URL}> */}
-  {/* routes */}
-// </Router>
 ReactDOM.render(
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router basename= '/Website'>
 
     <Switch>
       <Route exact path="/" render={(props) => <Index {...props} />} />
