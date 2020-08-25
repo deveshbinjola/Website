@@ -2,7 +2,9 @@ import ReactDOM from "react-dom";
 import { HashRouter, Route, Redirect, Switch } from "react-router-dom";
 import React from 'react';
 // styles
-
+import "assets/css/bootstrap.min.css";
+import "assets/scss/paper-kit.scss?v=1.2.0";
+import "assets/demo/demo.css?v=1.2.0";
 // pages
 import Index from "views/Index.js";
 import About from "views/About.js";
@@ -87,7 +89,6 @@ ReactDOM.render(
         path="/travelsmarter"
         render={(props) => <TravelSmarter {...props} />}
       />
-      <Redirect to="/" />
     </Switch>
   </HashRouter>,
   document.getElementById("root")
