@@ -1,5 +1,6 @@
 import React from "react";
 import {Row, Col, Container} from "reactstrap";
+import {Link} from "react-router-dom"
 
 function ExploreSection() {
   
@@ -10,7 +11,7 @@ function ExploreSection() {
 
           <Row>
             <Col sm="4" lg="3">
-                <a href="travelblog">
+                <Link to="travelblog">
             <img
                   alt="..."
                   className="img-rounded img-no-padding img-responsive"
@@ -19,10 +20,10 @@ function ExploreSection() {
                   width='300px'
                 />
                 <h4 className="text-center" style={{ color: 'black' }}>Travel Blog</h4>
-                </a>
+                </Link>
             </Col>    
             <Col sm="4" lg="3">
-            <a href="hiking">
+            <Link to="hiking">
             <img
                   alt="..."
                   className="img-rounded img-no-padding img-responsive"
@@ -31,10 +32,10 @@ function ExploreSection() {
                   width='300px'
                 />
                 <h4 className="text-center" style={{ color: 'black' }}>Hiking</h4>
-            </a>
+            </Link>
             </Col>      
             <Col sm="4" lg="3">
-            <a href="traveltips">
+            <Link to="traveltips">
             <img
                   alt="..."
                   className="img-rounded img-no-padding img-responsive"
@@ -43,10 +44,10 @@ function ExploreSection() {
                   width='300px'
                 />
             <h4 className="text-center" style={{ color: 'black' }}>Travel Tips</h4>
-            </a>
+            </Link>
             </Col>
             <Col sm="4" lg="3">
-            <a href="/travelsmarter">
+            <Link to="/travelsmarter">
             <img
                   alt="..."
                   className="img-rounded img-no-padding img-responsive"
@@ -55,7 +56,7 @@ function ExploreSection() {
                   width='300px'
                 />
             <h4 className="text-center" style={{ color: 'black' }}>How to travel cheaper, smarter, better?</h4>
-            </a>
+            </Link>
             </Col>
           </Row>
           </Container>

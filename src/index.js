@@ -30,7 +30,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 
 
 ReactDOM.render(
-  <Router basename= '/Website'>
+  <Router >
 
     <Switch>
       <Route exact path="/" render={(props) => <Index {...props} />} />
